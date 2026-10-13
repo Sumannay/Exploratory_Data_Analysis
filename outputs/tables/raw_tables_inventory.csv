@@ -1,0 +1,11 @@
+table_name,rows,columns,memory_mb,duplicates,candidate_keys
+customers,99441,5,29.621,0,customer_id
+orders,99441,8,58.969,0,"order_id, customer_id"
+order_items,112650,7,39.427,0,None (Composite or FK)
+payments,103886,5,17.815,0,None (Composite or FK)
+reviews,100000,7,43.196,0,None (Composite or FK)
+products,32951,9,6.795,0,product_id
+sellers,3095,4,0.659,0,seller_id
+category_translation,71,2,0.01,0,"product_category_name, product_category_name_english"
+marketing_leads,8000,4,2.379,0,mql_id
+closed_deals,842,14,0.648,0,"mql_id, seller_id"

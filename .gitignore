@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Database Files
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# Large Raw Datasets — too large for GitHub (regenerated via scripts/download_data.py)
+data/raw/*.csv
+
+# Large Processed Datasets — regenerated via src/retail_analytics.py
+data/processed/retail_customer_analytics.csv
+data/processed/customer_rfm_summary.csv
+
+# DuckDB database files
+data/processed/*.duckdb
